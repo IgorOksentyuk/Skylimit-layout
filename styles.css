@@ -1,13 +1,15 @@
+@import "/normalize.css";
 html {
   width: 100%;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
+  box-sizing: border-box;
   position: relative;
   width: 100%;
   margin: 0;
+  padding: 0;
   font-family: "Arial", sans-serif;
   line-height: 1.6;
   background: linear-gradient(to right, #3498db, #2ecc71);
@@ -294,7 +296,6 @@ footer {
   text-align: center;
   padding: 20px;
   bottom: 0;
-  width: 100%;
 }
 footer p {
   margin: 0;
